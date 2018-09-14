@@ -145,3 +145,6 @@ grant all on hue.* TO 'hue'@'%' IDENTIFIED BY 'hue_pass';
 create database oozie default character set utf8;
 grant all privileges on oozie.* to 'oozie'@'%' identified by 'oozie_pass';
 
+### Instalando o Cloudera 6:
+sudo yum install cloudera-manager-daemons cloudera-manager-agent cloudera-manager-server
+
